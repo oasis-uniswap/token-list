@@ -9,7 +9,7 @@ const oeth = require("./tokens/oeth.json");
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
-    name: "Oasis Uniswap Default List",
+    name: "Oasis Uniswap List",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
